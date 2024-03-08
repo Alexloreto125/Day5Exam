@@ -1,4 +1,5 @@
 import MultimediaPlayer.Riproducibili.Audio;
+import MultimediaPlayer.Riproducibili.Video;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,5 +14,8 @@ public class Main {
 //        fistallone.abbassaVolume();
 
         //! AUDIO FATTO
+
+        Video meteor= new Video("Meteor", 3,3,1);
+        meteor.play();
     }
 }

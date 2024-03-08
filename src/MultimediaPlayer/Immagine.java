@@ -7,12 +7,19 @@ public class Immagine extends LettoreMultimediale implements Visibilità {
         super(titolo);
     }
 
-    @Override
-    public void luminosità() {
+
+
+    void show() {
 
     }
 
-    void show() {
+    @Override
+    public void alzaLuminosità() {
+
+    }
+
+    @Override
+    public void abbassaLuminosità() {
 
     }
 }
