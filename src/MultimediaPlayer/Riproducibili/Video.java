@@ -17,13 +17,8 @@ public class Video extends LettoreMultimediale implements Riproducibili, Visibil
         this.luminosità = luminosità;
     }
 
-    public Video(String titolo) {
-        super(titolo);
-    }
-
-    //    @Override
-//    public int getVolume() {
-//        return volume;
+//    public Video(String titolo) {
+//        super(titolo);
 //    }
     @Override
     public void play() {
@@ -42,27 +37,34 @@ public class Video extends LettoreMultimediale implements Riproducibili, Visibil
 
 
         }
+        System.out.println("SI E' ISPIRATO A UN ESTINTORE PER...");
     }
 
     @Override
     public void alzaVolume() {
         this.volume++;
-        //TODO FOR TESTING      play();
     }
 
     @Override
     public void abbassaVolume() {
         this.volume--;
-        //TODO FOR TESTING      play();
+    }
+
+    @Override
+    public void show() {
+
     }
 
     @Override
     public void alzaLuminosità() {
         this.luminosità++;
+        //TODO FOR TESTING play();
     }
 
     @Override
     public void abbassaLuminosità() {
         this.luminosità--;
+        //TODO FOR TESTING play();
+
     }
 }

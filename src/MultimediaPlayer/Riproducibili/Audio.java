@@ -30,6 +30,7 @@ public class Audio extends LettoreMultimediale implements Riproducibili {
 //
             System.out.println(titolo);
         }
+        System.out.println("TI SEI SEDUTO SUL CONCETTO DI FISTALLONE!!!!!!!!!!!");
     }
 
     @Override
